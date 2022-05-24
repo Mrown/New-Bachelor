@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .icon {
+        @apply hidden xl:inline-flex h-5 md:px-10 sm:h-8 cursor-pointer 
+        md:hover:bg-blue-300 rounded-xl flex-shrink;
+    }
+    .inputIcon{
+        @apply flex items-center space-x-1 hover:bg-gray-100 
+        flex-grow justify-center p-2 rounded-xl cursor-pointer
+    }
+}
